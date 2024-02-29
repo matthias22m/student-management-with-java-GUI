@@ -1,9 +1,9 @@
-Maths,3
-Java,3
-FSE,3
-DLD,4
-Psycho,3
-History,4
-Physics,3
+Maths,3,Mr. Gemechu
+Java,3,Mr. Abebe
+FSE,3,Mr. Kiya
+DLD,4,Mr. Joe
+Psycho,3,Mr. Habtamu
+History,4,Mr. Ziyad
+Physics,3,Mr. Amanuel
 
 

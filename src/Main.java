@@ -1,17 +1,36 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
-public class Main {
-    public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+import javax.swing.*;
+import GUI.*;
+import Objects.Course;
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+import java.awt.*;
+import java.io.IOException;
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+
+public class Main extends JFrame{
+    static JFrame frame = new JFrame("Student Grade Management System");
+    JPanel cardPanel;
+
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
+        frame.setBounds(100,100,1000,700);
+
+//        Login pan = new Login();
+        frame.setVisible(true);
+//        JPanel n = pan.LoginPage(frame);
+
+        Register pan2 = new Register();
+        JPanel n2 = pan2.RegisterPage(frame);
+
+
+
+        frame.getContentPane().add(n2);
+
+//        frame.getContentPane().add(n);
+        frame.setLayout(null);
+
+        frame.setResizable(false);
+
+
+
+
     }
 }
