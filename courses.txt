@@ -1,0 +1,9 @@
+Maths,3
+Java,3
+FSE,3
+DLD,4
+Psycho,3
+History,4
+Physics,3
+
+
